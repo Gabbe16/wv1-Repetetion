@@ -1,28 +1,44 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: grey;
 }
 
 .container {
     width: min(80ch, 100vw - 2rem);
     margin-inline: auto;
+    background-color: grey;
+    color: black;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    width: 100%;
+    background-color: lightgrey;
 }
 
 nav > ul {
     display: flex;
     list-style: none;
     gap: 1rem;
-    padding: 0;
 }
+
 
 img {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+a:link {
+    text-decoration: none;
 }
